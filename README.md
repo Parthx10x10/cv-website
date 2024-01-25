@@ -1,2 +1,2 @@
-## Bhavin Portfolio
-## https://github.com/AlphaStarX
+## Parth's Portfolio
+## https://github.com/ParthPrajapati
