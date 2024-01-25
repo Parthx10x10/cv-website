@@ -309,6 +309,11 @@ a:focus {
     overflow: hidden;
 }
 
+.card.project-card-resources {
+    background-color: #fff;
+    color: #000;
+}
+
 .card.project-card .card-body {
     padding: 1.6rem;
 }
@@ -377,6 +382,85 @@ a:focus {
     /* Adjust this value as needed */
     height: auto;
     vertical-align: middle;
+}
+
+.project-media {
+    position: relative;
+    height: 100%;
+    /* Adjust as necessary */
+    width: 100%;
+    /* Adjust as necessary */
+}
+
+.cover-img {
+    width: 100%;
+    height: auto;
+    /* Adjust as necessary */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    /* Adjust if needed to be on top of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    max-width: 720px;
+    /* Match the video size */
+}
+
+.close-modal {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.gallery-slide {
+    display: none;
+    width: 100%;
+    /* Full width */
+    vertical-align: middle;
+}
+
+.project-media {
+    position: relative;
+    height: 100%;
+    /* Adjust as necessary */
+    width: 100%;
+    /* Adjust as necessary */
+}
+
+.cover-img {
+    width: 100%;
+    height: 100%;
+    /* Adjust as necessary */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* You might need to adjust the width and height as per your icon sizes */
